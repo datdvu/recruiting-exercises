@@ -2,9 +2,9 @@
 - **allocate**(*order*, *distribution*):  
 """  
 *order*: a dictionary of items to order, e.g. `{apple: 5, banana: 5, orange: 5}`  
-*distribution*: a list of dictionary objects of warehouse and inventory, 
+*distribution*: a list of dictionary objects of warehouse and inventory,  
 e.g. `[{ name: owd, inventory: { apple: 5, orange: 10 } }, { name: dm, inventory: { banana: 5, orange: 10 } } ]`  
-returns *shipment*: a list of dictionary objects of warehouse and respective shipment,
+returns *shipment*: a list of dictionary objects of warehouse and respective shipment,  
 e.g. `[{owd: {apple: 5, orange:5}}, {dm: {banana:5}}]`  
 """
 
