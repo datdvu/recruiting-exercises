@@ -1,10 +1,10 @@
 ## InventoryAllocator.py 
 - **allocate**(*order*, *distribution*):  
 """  
-**_order_**: a dictionary of items to order, e.g. `{apple: 5, banana: 5, orange: 5}`  
-**_distribution_**: a list of dictionary objects of warehouse and inventory,  
+- **_order_**: a dictionary of items to order, e.g. `{apple: 5, banana: 5, orange: 5}`  
+- **_distribution_**: a list of dictionary objects of warehouse and inventory,  
 e.g. `[{ name: owd, inventory: { apple: 5, orange: 10 } }, { name: dm, inventory: { banana: 5, orange: 10 } } ]`  
-returns **_shipment_**: a list of dictionary objects of warehouse and respective shipment,  
+- returns **_shipment_**: a list of dictionary objects of warehouse and respective shipment,  
 e.g. `[{owd: {apple: 5, orange:5}}, {dm: {banana:5}}]`  
 """
 
